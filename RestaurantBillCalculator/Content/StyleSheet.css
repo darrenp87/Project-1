@@ -1,0 +1,129 @@
+﻿body {
+    font-family: "Montserrat", "Helvetica Neue", Arial, Helvetica, sans-serif, Arial, sans-serif;
+    background-image: url(../images/restaurant-bg.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+p {
+    padding: 20px;
+    font-size: medium;
+}
+
+
+h4 {
+    font-style: italic;
+}
+
+.container {
+    color: black;
+}
+
+#calculator {
+    background-color: rgba(128, 128 ,128, 0.9);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#header {
+    background-color: #008080;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    color: black;
+}
+
+#secondHeader {
+    background-color: #008080;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid black;
+    color: black;
+    margin-top: 10px;
+}
+
+#inputDiv {
+    padding: 50px 100px 50px 100px;
+}
+
+#outputDiv {
+    padding: 50px 100px 50px 100px;
+}
+
+#SubmitButton {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#outputDiv p {
+    padding-left: 100px;
+}
+
+#billTB, #peopleTB, #percentTB, #drinkTB, #starterTB, #mainTB, #dessertTB { 
+    border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    width: 200px; 
+    padding-left:10px; 
+    padding-right:10px; 
+    color: black;
+  } 
+
+#toPay, #perPerson, #tipTotal {
+    margin-bottom: 15px;
+}
+
+#graph {
+    background-color: rgba(128, 128 ,128, 0.9);
+    color: black;
+    font-size: medium;
+    padding-left: 100px;
+}
+
+#chartContainer {
+    margin-top: 50px;
+}
+
+#SubmitButton, #ResetButton, #DrawGraph {
+    background-color: #d3d3d3;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#SubmitButton:hover, #DrawGraph:hover{
+    background-color: #eeeeee;
+}
+
+#ResetButton {
+    background-color: #ff3232;
+    padding: 6px 18px;
+    margin-left: 24px;
+}
+
+#ResetButton:hover {
+    background-color: #ff1919;
+}
+
+#DrawGraph {
+    padding: 8px 14px;
+}
+
+#chartBtn {
+    padding-top: 175px;
+}
+
+.ErrorMessage {
+    color: red;
+}

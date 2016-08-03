@@ -1,0 +1,21 @@
+﻿window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer", {
+        title: {
+            text: "Meal Breakdown"
+        },
+        data: [
+		{
+		    // Change type to "doughnut", "line", "splineArea", etc.
+		    type: "pie",
+		    dataPoints: [
+				{ label: "Drink", y: 26 },
+				{ label: "Starter", y: 15 },
+				{ label: "Main", y: 25 },
+				{ label: "Dessert", y: 30 },
+				{ label: "grape", y: 28 }
+		    ]
+		}
+        ]
+    });
+    chart.render();
+}
